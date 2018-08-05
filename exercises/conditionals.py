@@ -6,4 +6,3 @@ while checking==False:
         checking=True
     else:
         i-=1
-        print("Not")
