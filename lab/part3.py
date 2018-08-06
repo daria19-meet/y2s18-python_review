@@ -1,9 +1,11 @@
-# Part 3 of the Python Review
+import part2
 
 class Cipher:
 
 	def __init__(self, secret_message, key, limit):
-		pass
+		self.secret_message=secret_message
+		self.key=key
+		self.limit=limit
 
 	def encode(self):
 		pass
